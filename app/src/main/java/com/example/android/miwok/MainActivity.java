@@ -28,5 +28,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 }
-//some test information from desktop
-// some information from laptop 
+//some test information from desktoper (laptop)
+// some information from laptop
