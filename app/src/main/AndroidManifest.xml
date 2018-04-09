@@ -34,20 +34,20 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".NumberActivity" >
-
+        <activity android:name=".NumberActivity"
+            android:label="Numbers">
         </activity>
 
-        <activity android:name=".FamilyActivity" >
-
+        <activity android:name=".FamilyActivity"
+            android:label="Family Members">
         </activity>
 
-        <activity android:name=".PhrasesActivity" >
-
+        <activity android:name=".PhrasesActivity"
+            android:label="Colors">
         </activity>
 
-        <activity android:name=".ColorsActivity">
-
+        <activity android:name=".ColorsActivity"
+            android:label="Phrases">
         </activity>
 
     </application>

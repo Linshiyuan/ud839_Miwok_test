@@ -15,8 +15,10 @@
  */
 package com.example.android.miwok;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +28,28 @@ public class MainActivity extends AppCompatActivity {
 
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
+    }
+
+    public void textButton(View view){
+        switch (view.getId()){
+            case (R.id.numbers):
+                Intent numbersActivity = new Intent(this, NumberActivity.class);
+                startActivity(numbersActivity);
+                break;
+            case(R.id.family):
+                Intent familyActivity = new Intent(this, FamilyActivity.class);
+                startActivity(familyActivity);
+                break;
+            case(R.id.colors):
+                Intent colorsActivity = new Intent(this, ColorsActivity.class);
+                startActivity(colorsActivity);
+                break;
+            case(R.id.phrases):
+                Intent phrasesActivity = new Intent(this, PhrasesActivity.class);
+                startActivity(phrasesActivity);
+                break;
+        }
+
     }
 }
 //some test information from desktop (laptop)
